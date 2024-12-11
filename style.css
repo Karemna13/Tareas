@@ -1,3 +1,9 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
     --color-primario: #A86B98;
     --color-secundario: #7b3f8d;
@@ -72,7 +78,7 @@ background: radial-gradient(circle, rgba(187,88,161,1) 0%, rgba(119,78,186,0.731
     margin: 5px 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 .tareas i:hover{
     color: var(--color-text);
